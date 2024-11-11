@@ -190,12 +190,11 @@ body{
     display:flex ;
     gap:5%;
     padding-top:2%;
-   
 }
 
 .meal__pictures img{
     width:250px;
-    height:250px; 
+    height:250px;  
     border-radius:2%;
 }
 .travel__pictures img{
@@ -213,14 +212,14 @@ body{
 }
 .myplace__pictures img{
      width:250px;
-    height:250px;
+    height:250px; 
     border-radius:2%;
     border-radius:2%;
 
 }
 .explore__pictures img{
-    width:350px;
-    height:200px; 
+     width:350px;
+    height:200px;  
     border-radius:2%;
 }
 .explore{
@@ -232,7 +231,7 @@ body{
 }
 .desti__pictures img{
     width:250px;
-    height:250px;
+    height:250px; 
     border-radius:2%;
 
 }
@@ -433,19 +432,20 @@ a:hover{
         flex-wrap: wrap;
         font-size:small;
         margin-left:-5%;
+        flex-basis:50%;
     }
 
     .meal__pictures img,.travel__pictures img,.myplace__pictures img,.topdestinations img{
-    width:400px;
-    height:400px; 
     border-radius:2%;
     padding-top:2%;
+    margin-left:5%;
     }
     .footer
     {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        margin-left:5%;
     }
     .footer__one{
         margin-left:5%;
